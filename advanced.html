@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<header></header>
+<body>
+    <div class="parent-container">
+        <div class="div-1">
+            <span>This div is positioned statically</span>
+        </div>
+        <div class="div-2">
+            <span>This div is positioned relatively</span>
+        </div>
+        <div class="div-3">
+            <span>This div is positioned sticky</span>
+        </div>
+        <div class="div-4">
+            <span>This div is positioned absolute</span>
+        </div>
+        <div class="div-5">
+            <span>This div is positioned fixed</span>
+        </div>
+    </div>
+    <style>
+        .parent-container {
+            position: absolute;
+            height: 200vh;
+            width: 60vw;
+            background-color: grey;
+            color: white;
+            text-align: center;
+            margin-right: 50px;
+            margin-left: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .div-1 {
+            background-color: pink;
+            position: static;
+            width: 200px;
+            height: 200px;
+        }
+        .div-2 {
+            background-color: cornflowerblue;
+            position: relative;
+            width: 200px;
+            height: 200px;
+            left: 20px;
+        }
+        .div-3 {
+            background-color: rgb(150, 87, 138);
+            position: sticky;
+            width: 200px;
+            height: 200px;
+            top: 50px;
+            right: 50px;
+        }
+        .div-4 {
+            background-color: rgb(72, 116, 135);
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 400px;
+            bottom: 50px;
+        }
+        .div-5 {
+            background-color: lightblue;
+            width: 200px;
+            height: 200px;
+            position: fixed; 
+            right: 50px;
+            bottom: 50px;
+        }
+
+        .div-1:hover{
+            background-color: rgb(196, 141, 150);
+        }
+        .div-2:hover {
+            background-color: rgb(67, 101, 164);
+        }
+        .div-3:hover{
+            background-color: rgb(103, 59, 95);
+        }
+        .div-4:hover{
+            background-color: rgb(54, 87, 101);
+        }
+        .div-5:hover{
+            background-color: rgb(135, 170, 181);
+        }
+    </style>
+</body>
+</html>
 
